@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+main{
+    background-color: blanchedalmond;
+   }
+
+.titulo{ 
+    display: flex;
+    justify-content: center;
+}
+
+header h1{ 
+    padding-top: 2rem;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0,5rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+header{
+    border-bottom: 3px solid salmon;
+    margin-bottom: 1rem;
+    background-color: blanchedalmond;
+}
+
+h2{
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 25px;
+    margin-right: 35px;
+}
+
+.frase-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#primeiro-paragrafo{
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*div amamentacao*/
+#video{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+
+
+table{
+    margin-top: 1rem;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 25px; 
+    width: 650px;
+    border-color: blanchedalmond;
+}
+
+td{
+    background-color: rgb(253, 143, 103);
+    font-weight: 800;
+    line-height: 1.3;
+    width: 350px;
+    text-align: center;
+    padding: 1.5px;
+    border: 0.5px;
+    border-color: blanchedalmond; 
+}
+
+
+.desenvolvimento{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    gap: 2rem;
+    border: 0.5px;
+    border-color: blanchedalmond;
+}
+    
+tr{
+       text-align: left;
+       padding: 10px;
+       border: 0.5px;
+       border-color: blanchedalmond;
+}
+
+ul{
+    margin-left: 25px;
+    list-style: none;
+    font-size: 18px;
+}
+
+#dois-anos{
+    background-image: url(imagens/images.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 233px;
+    background-color: antiquewhite;
+    
+}
+
+#tres-anos{background-image: url(imagens/3\ anos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 233px;
+    background-color: antiquewhite;}
+    
+#quatro-anos{background-image: url(imagens/5\ anos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 233px;
+    background-color: antiquewhite;}
+
+
+#socorros{
+    padding-bottom: 20px;
+}
+
+#tmarcos{
+    padding-top: 55px;
+}
+form{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+#caixa{
+    width: 30%;
+    
+}
+
+footer{
+    background-color: salmon;
+}
+#final{    
+    font-size: 14px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+#botao{
+    width: 50px;
+    gap: 0.5px;
+}
