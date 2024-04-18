@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="banco-de-dados.html">
+        <section>
+            <p>
+            <h2>Dados Pessoais</h2>
+            <label for="Nome">Nome: </label>
+            <input type="text" id="Nome"/>
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email">
+            </p>
+            <p>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="Telefone">
+            </p>
+        </section>
+        <section>
+            <h2>informações da Pesquisa</h2>
+            <p>
+                Qual é sua estação do ano preferida?
+                <input type="radio" id="Verão" name="estação">
+                <label for="Verão">Verão</label>
+                <input type="radio" id="Inverno" name="estação">
+                <label for="Inverno">Inverno</label>
+                <input type="radio" id="Primavera" name="estação">
+                <label for="Primavera">Primavera</label>
+                <input type="radio" id="Outono" name="estação">
+                <label for="Outono">Outono</label>
+            </p>
+            <p>
+                Qual estação do ano você gosta menos?
+                <input type="radio" id="Verão" name="estação">
+                <label for="Verão">Verão</label>
+                <input type="radio" id="Inverno" name="estação">
+                <label for="Inverno">Inverno</label>
+                <input type="radio" id="Primavera" name="estação">
+                <label for="Primavera">Primavera</label>
+                <input type="radio" id="Outono" name="estação">
+                <label for="Outono">Outono</label>
+            </p>
+            <p>
+                <label for="mês">Mês preferido</label>
+                <select name="Mês" id="mês">
+                <option value="Janeiro">Janeiro</option>
+                <option value="Fevereiro">Fevereiro</option>
+                <option value="Março">Março</option>
+                <option value="Abril">Abril</option>
+                <option value="Maio">Maio</option>
+                <option value="Junho">Junho</option>
+                <option value="Julho">Julho</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Setembro">Setembro</option>
+                <option value="Outubro">Outubro</option>
+                <option value="Novembro">Novembro</option>
+                <option value="Dezembro">Dezembro</option>
+            </select>
+            </p>
+            <p>
+                <label for="aceite"></label>
+                <input type="checkbox" id="aceite"> Eu autorizo compartilhar minhas respostas com terceiros
+            </p>           
+        </section>
+    </form>
+</body>
+</html>
