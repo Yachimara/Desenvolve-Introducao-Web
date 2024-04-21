@@ -1,0 +1,33 @@
+/*cores da página #003B4A, #E66EB2, #DBB4DB*/
+*{
+    color: #003B4A;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{ 
+    background-color: #FACDFA;
+}
+p{
+    text-indent: 1em;
+}
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#zen-summary{
+    text-align: center;
+}
+#zen-supporting p{
+    line-height: 1.5;
+}
+abbr{
+    font-variant: small-caps;
+}
